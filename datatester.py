@@ -4,6 +4,9 @@ files = [
         "data/bl2.csv",
         "data/hs2.csv",
         "data/ss2.csv",
+        "data/bl3.csv",
+        "data/hs3.csv",
+        "data/ss3.csv",
         ]
 for filename in files:
     stats = []
