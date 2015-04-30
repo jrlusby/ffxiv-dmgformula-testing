@@ -14,7 +14,7 @@ for filename in files:
     with open(filename, "r") as fin:
         stats = fin.readline().split(",")
         stats = [float(x) for x in stats]
-        print stats
+        print stats, filename
         headers = fin.readline().split(",")
         data = [line.split(",") for line in fin]
         damages = []
